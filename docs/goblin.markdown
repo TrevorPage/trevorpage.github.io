@@ -4,13 +4,20 @@ title: Goblin User Guide
 permalink: /goblin/
 ---
 
+# Installation
+
+
+# Wiring
+
+
 ![Goblin wiring diagram](/assets/goblin_wiring.png)
 
 
+![Goblin wiring diagram](/assets/goblin_vcf_location.png)
 
 
 
-## Firmware Update
+# Firmware Update
 
 The firmware may be updated via MIDI using a Goblin firmware .syx file. A suitable tool to transfer the firmware file is PixieDust which may be obtained from https://github.com/sunflowr/pixiedust/releases. 
 
@@ -20,23 +27,29 @@ In the PixieDust application ensure that the correct MIDI interface is selected 
 
 Following successful firmware update, the Goblin switches to normal operation.
 
-## Configuration
+
+# Configuration
 
 To enter configuration mode, hold KEY TRANSPOSE and U&D together. The respective LEDs for KEY TRANSPOSE and U&D flash together slowly.
 Whenever a configuration change is made using any of the steps shown below, the Goblin acknowledges the change by briefly flashing the KEY TRANSPOSE and U&D LEDs more rapidly.
 Press KEY TRANSPOSE to exit configuration mode.
 
-## MIDI Receive Channel
+
+### MIDI Receive Channel
 
 When in Configuration Mode, hold down the key “RX CH” shown, and then while holding that key, simultaneously press the key corresponding with the desired MIDI receive channel.
 
+
 ![Goblin wiring diagram](/assets/goblin_rx_ch.png)
+
 
 ### MIDI Transmit Channel
 
 When in Configuration Mode, hold down the key “TX CH” shown, and then while holding that key, simultaneously press the key corresponding with the desired MIDI transmit channel.
 
+
 ![Goblin wiring diagram](/assets/goblin_tx_ch.png)
+
 
 ### MIDI VCF control
 
@@ -45,8 +58,12 @@ There are two modes of VCF control via MIDI offered:
 - Control of VCF using CC #74 in combination with note-on velocity 
  When in Configuration Mode, press the key corresponding with the desired mode.
 
+
  ![Goblin wiring diagram](/assets/goblin_vcf_source.png)
+
 
 ### Display firmware version
 
+
 ![Goblin wiring diagram](/assets/goblin_sw_version.png)
+
