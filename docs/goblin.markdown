@@ -9,3 +9,7 @@ permalink: /goblin/
 ![Goblin wiring diagram](/assets/goblin_rx_ch.png)
 
 ![Goblin wiring diagram](/assets/goblin_tx_ch.png)
+
+![Goblin wiring diagram](/assets/goblin_vcf_source.png)
+
+![Goblin wiring diagram](/assets/goblin_sw_version.png)
