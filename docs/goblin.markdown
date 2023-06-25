@@ -6,6 +6,6 @@ permalink: /goblin/
 
 ![Goblin wiring diagram](/assets/goblin_wiring.png)
 
-dunno
+![Goblin wiring diagram](/assets/goblin_rx_ch.png)
 
-![Goblin wiring diagram](/trevorpage/goblin_wiring.png)
+![Goblin wiring diagram](/assets/goblin_tx_ch.png)
