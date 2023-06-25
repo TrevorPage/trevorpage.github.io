@@ -25,6 +25,10 @@ Hold PLAY and HOLD together while turning on power. All LEDs above the buttons w
 
 In the PixieDust application ensure that the correct MIDI interface is selected in the Settings section. The default 250ms pause setting works fine with the Goblin. In the Send to device section, choose the .syx file and then hit SEND. The LEDs will start to illuminate sequentially in a ‘chase’ fashion while the firmware transfers. When finished, all LEDs will briefly flash rapidly to indicate success. If an error occurs, the LEDs flash at a slow rate. 
 
+
+![PixieDust](/assets/goblin_pixiedust.png)
+
+
 Following successful firmware update, the Goblin switches to normal operation.
 
 
