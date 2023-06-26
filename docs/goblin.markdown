@@ -4,6 +4,15 @@ title: Goblin User Guide
 permalink: /goblin/
 ---
 
+# Under construction!
+
+## Expected completion date: 28th June 2023
+
+![Goblin wiring diagram](/assets/goblin_under_construction.jpg)
+
+
+
+
 # Installation
 
 
