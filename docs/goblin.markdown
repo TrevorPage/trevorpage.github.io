@@ -11,6 +11,16 @@ permalink: /goblin/
 
 ![DinSync.info's highly skilled technical department](/assets/goblin_under_construction.jpg)
 
+# Introduction
+
+The Goblin is suitable for both DinSync.info RE-101 and Roland SH-101.  
+
+It is a highly accurate replication of the original CPU. To use it, you can refer to all parts of the original Roland SH-101 user manual; all functions are identical.
+
+In addition to the OG functionality, the Goblin adds MIDI in and MIDI out. VCF cutoff may be controlled by MIDI note velocity and / or Continuous Controller. 
+
+Other than MIDI, the Goblin adds nothing else. The aim was to only faithfully replicate OG behaviour, but with added MIDI.
+
 
 # Initial preparation
 
@@ -26,6 +36,10 @@ The Goblin is supplied tested and programmed with firmware, so you don't need to
 
 # Installation
 
+The Goblin should be seated in a suitable 40-pin IC socket in the orientation shown. If installing in an SH-101, this means desoldering the original CPU and installing a socket in its place.
+
+There are no further modifications required. Components X1 and C19 on the SH-101 / RE-101 main board aren't needed for the Goblin, so you don't need to fit these if building the RE-101 (but are fine left in place if already present). 
+
 ![Goblin PCB orientation](/assets/goblin_fitted.jpg)
 
 
@@ -37,21 +51,6 @@ The Goblin is supplied tested and programmed with firmware, so you don't need to
 
 ![Goblin wiring diagram](/assets/goblin_vcf_location.png)
 
-
-
-# Firmware Update
-
-The firmware may be updated via MIDI using a Goblin firmware .syx file. A suitable tool to transfer the firmware file is PixieDust which may be obtained from https://github.com/sunflowr/pixiedust/releases. 
-
-Hold PLAY and HOLD together while turning on power. All LEDs above the buttons will flash continually. This indicates that the Goblin is ready to receive the firmware update.
-
-In the PixieDust application ensure that the correct MIDI interface is selected in the Settings section. The default 250ms pause setting works fine with the Goblin. In the Send to device section, choose the .syx file and then hit SEND. The LEDs will start to illuminate sequentially in a ‘chase’ fashion while the firmware transfers. When finished, all LEDs will briefly flash rapidly to indicate success. If an error occurs, the LEDs flash at a slow rate. 
-
-
-![PixieDust](/assets/goblin_pixiedust.png)
-
-
-Following successful firmware update, the Goblin switches to normal operation.
 
 
 # Configuration
@@ -92,4 +91,19 @@ There are two modes of VCF control via MIDI offered:
 
 
 ![Goblin wiring diagram](/assets/goblin_sw_version.png)
+
+
+# Firmware Update
+
+The firmware may be updated via MIDI using a Goblin firmware .syx file. A suitable tool to transfer the firmware file is PixieDust which may be obtained from https://github.com/sunflowr/pixiedust/releases. 
+
+Hold PLAY and HOLD together while turning on power. All LEDs above the buttons will flash continually. This indicates that the Goblin is ready to receive the firmware update.
+
+In the PixieDust application ensure that the correct MIDI interface is selected in the Settings section. The default 250ms pause setting works fine with the Goblin. In the Send to device section, choose the .syx file and then hit SEND. The LEDs will start to illuminate sequentially in a ‘chase’ fashion while the firmware transfers. When finished, all LEDs will briefly flash rapidly to indicate success. If an error occurs, the LEDs flash at a slow rate. 
+
+
+![PixieDust](/assets/goblin_pixiedust.png)
+
+
+Following successful firmware update, the Goblin switches to normal operation.
 
