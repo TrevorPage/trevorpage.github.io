@@ -4,6 +4,8 @@ title: Goblin User Guide
 permalink: /goblin/
 ---
 
+![Goblin](/assets/goblin_head.png)
+
 # Under construction!
 
 ## __Expected completion date: 28th June 2023__
