@@ -6,9 +6,8 @@ permalink: /goblin/
 
 ![Goblin](/assets/goblin_head.png)
 
-# Under construction!
 
-## __Expected completion date: 28th June 2023__
+## __Under construction! Expected completion: 28.6.23__
 
 
 ![DinSync.info's highly skilled technical department](/assets/goblin_under_construction.jpg)
