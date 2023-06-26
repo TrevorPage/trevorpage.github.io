@@ -6,11 +6,17 @@ permalink: /goblin/
 
 # Under construction!
 
-> Expected completion date: 28th June 2023
+## __Expected completion date: 28th June 2023__
+
 
 ![DinSync.info's highly skilled technical department](/assets/goblin_under_construction.jpg)
 
-# Initial assembly
+
+# Initial preparation
+
+Two rows of 20-pin turned-pin headers are carefully soldered as shown. It's essential to use turned-pin headers to ensure the Goblin will plug into an IC socket.
+
+The Goblin is supplied tested and programmed with firmware, so you don't need to perform any firmware programming steps before using it.
 
 ![Goblin header pin assembly](/assets/goblin_assembly_1.jpg)
 
@@ -18,10 +24,9 @@ permalink: /goblin/
 ![Goblin header pin assembly](/assets/goblin_assembly_2.jpg)
 
 
-![Goblin PCB orientation](/assets/goblin_fitted.jpg)
-
-
 # Installation
+
+![Goblin PCB orientation](/assets/goblin_fitted.jpg)
 
 
 # Wiring
