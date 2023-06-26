@@ -8,9 +8,16 @@ permalink: /goblin/
 
 ## Expected completion date: 28th June 2023
 
-![Goblin wiring diagram](/assets/goblin_under_construction.jpg)
+![DinSync.info's highly skilled technical department](/assets/goblin_under_construction.jpg)
 
 
+![Goblin header pin assembly](/assets/goblin_assembly_1.jpg)
+
+
+![Goblin header pin assembly](/assets/goblin_assembly_2.jpg)
+
+
+![Goblin PCB orientation](/assets/goblin_fitted.jpg)
 
 
 # Installation
