@@ -80,9 +80,11 @@ When in Configuration Mode, hold down the key “TX CH” shown, and then while 
 ### MIDI VCF control
 
 There are two modes of VCF control via MIDI offered:
+
 - Control of VCF using Continuous Controller (CC) #74
 - Control of VCF using CC #74 in combination with note-on velocity 
- When in Configuration Mode, press the key corresponding with the desired mode.
+
+When in Configuration Mode, press the key corresponding with the desired mode.
 
 
  ![Goblin wiring diagram](/assets/goblin_vcf_source.png)
